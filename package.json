@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/howdyai/botkit-middleware-witai.git"
+    "url": "git+https://github.com/sleepystrix/botkit-middleware-witai.git"
   },
   "keywords": [
     "botkit",
@@ -19,9 +19,9 @@
   "author": "",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/howdyai/botkit-middleware-witai/issues"
+    "url": "https://github.com/sleepystrix/botkit-middleware-witai/issues"
   },
-  "homepage": "https://github.com/howdyai/botkit-middleware-witai#readme",
+  "homepage": "https://github.com/sleepystrix/botkit-middleware-witai#readme",
   "dependencies": {
     "node-wit": "^3.3.2"
   },
