@@ -39,6 +39,11 @@ module.exports = function (config) {
 				console.log(message);
 				console.log(message.text.indexOf(bot.identity.id));
 			}*/
+			//console.log(message.text.length);
+			//truncate messages that are too long
+			if (message.text.length > 256) {
+				message.text = message.text.substring(0, 256);
+			}
 			client.message(message.text, function (error, data) {
 				if (error) {
 					console.log(error);
